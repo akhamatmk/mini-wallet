@@ -3,8 +3,8 @@ package seed
 import (
 	"log"
 
+	"github.com/akhamatvarokah/mini-wallet/backend/models"
 	"github.com/jinzhu/gorm"
-	"github.com/victorsteven/fullstack/api/models"
 )
 
 var users = []models.User{
